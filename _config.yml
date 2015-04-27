@@ -6,16 +6,16 @@ highlighter: pygments
 title : BV Blog
 description: A blog about our VC activities
 author :
-  name : Bruiser Ventures
-  email : contact@bruiser-ventures.com
-  twitter : BruiserVentures
-  linkedin : bruiser-ventures
+  name : I'm Human First
+  email : contact@imhumanfirst.com
+  twitter : imhumanfirst
+  linkedin : imhumanfirst
 
-production_url : http://www.bruiser-ventures.com/blog
+production_url : http://imhumanfirst.github.io/blog
 
 JB :
   version : 0.3.0
-  BASE_PATH : http://www.bruiser-ventures.com/blog
+  BASE_PATH : http://imhumanfirst.github.io/blog
   ASSET_PATH : false
   archive_path: /archive.html
   categories_path : /categories.html
