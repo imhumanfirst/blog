@@ -1,0 +1,62 @@
+permalink: /:categories/:year/:month/:day/:title 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+highlighter: pygments
+
+title : BV Blog
+description: A blog about our VC activities
+author :
+  name : Bruiser Ventures
+  email : contact@bruiser-ventures.com
+  twitter : BruiserVentures
+  linkedin : bruiser-ventures
+
+production_url : http://www.bruiser-ventures.com/blog
+
+JB :
+  version : 0.3.0
+  BASE_PATH : http://www.bruiser-ventures.com/blog
+  ASSET_PATH : false
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
+  comments :
+    provider :
+    disqus :
+      short_name :
+    livefyre :
+      site_id : 
+    intensedebate :
+      account : 
+    facebook :
+      appid : 
+      num_posts: 
+      width: 580
+      colorscheme: light
+  analytics :
+    provider : google 
+    google : 
+        tracking_id : ''
+    getclicky :
+      site_id : 
+    mixpanel :
+        token : 
+    piwik :
+        baseURL : 
+        idsite : 
+  sharing :
+    provider : twitter
+    
+  # Settings for all other include helpers can be defined by creating 
+  # a hash with key named for the given helper. ex:
+  #
+  #   pages_list :
+  #     provider : "custom"   
+  #
+  # Setting any helper's provider to 'custom' will bypass the helper code
+  # and include your custom code. Your custom file must be defined at:
+  #   ./_includes/custom/[HELPER]
+  # where [HELPER] is the name of the helper you are overriding.
+  
